@@ -44,7 +44,7 @@ function App() {
                 type: "INIT"
             })
             try {
-                const url = "http://localhost:8080/api/checkHealth"
+                const url = "http://triple-hour-287219.uc.r.appspot.com/api/checkHealth"
                 const headers = {
                     "Accept": "application/json",
                     "Content-Type": "application/json"
